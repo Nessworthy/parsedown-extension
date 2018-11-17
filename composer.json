@@ -1,0 +1,25 @@
+{
+  "name": "nessworthy/parsedown-extension",
+  "description": "Provides Parsedown Extension Manager extension interfaces.",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Sean Nessworthy",
+      "email": "sean@nessworthy.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "roave/security-advisories": "dev-master"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nessworthy\\ParsedownExtension\\": "src/"
+    }
+  }
+}
